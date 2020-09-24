@@ -805,6 +805,7 @@ public static void main(String[] a) {
         // Model model;
 		InteractiveCamember model = new InteractiveCamember("Test");
 		
+		// Maybe put some data in the model
 		model.addItem("test1", "desc du premier", 50);
 		model.addItem("test2", "desc du second", 40);
 		model.addItem("numero3", "desc du second", 60);
@@ -812,9 +813,6 @@ public static void main(String[] a) {
 		model.addItem("4eme", "something about 4", 100);
 		model.addItem("porte", "une porte", 5);
 		
-		
-        // Maybe put some data in the model
-
 		// Create the controller and the view and link all together
 		Adaptateur adap = new Adaptateur(model);
 		 //Item item = new Item("test", "description", 10);
